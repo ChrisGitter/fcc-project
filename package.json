@@ -1,0 +1,23 @@
+{
+  "name": "timestamps",
+  "version": "0.0.1",
+  "description": "Freecodecamp project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChrisGitter/timestamp.git"
+  },
+  "author": "Chris Gitter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisGitter/timestamp/issues"
+  },
+  "homepage": "https://github.com/ChrisGitter/timestamp#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
