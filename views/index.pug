@@ -1,0 +1,19 @@
+extends ./layout
+
+block content
+    .jumbotron
+        h1 API Project: Timestamps
+        p.lead.
+            This is a simple microservice project for Free Code Camp. You can
+            put in a date or a UNIX timestamp and it will parse everything and
+            give you a JSON object with both the UNIX string and the
+            natural language date.
+        p   Try it out:
+            a.btn.btn-lg.btn-primary(href="/December%2015,%202015") Natural Language String
+            a.btn.btn-lg.btn-primary(href="/1450137600") UNIX-timestamp
+    .row: .col-xs-12
+        h2 Example Usage:
+        p: code https://timestamp-ms.herokuapp.com/December%2015,%202015
+        p: code https://timestamp-ms.herokuapp.com/1450137600
+        h2 Example Output:
+        p: code { "unix": 1450137600, "natural": "December 15, 2015" }
